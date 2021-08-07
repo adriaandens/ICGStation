@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="icgstation.css"></link>
+</head>
+<body>
+<div id="wrapper">
+	<ul id="nav">
+		<li><div class="nav_item"><a href="#"><img src="static/images/icon_home.gif" />Dashboard</a></div></li><li><div class="nav_item"><a href="#"><img src="static/images/icon_album.gif" />My Content</a></div></li><li><div class="nav_item"><a href="#"><img src="static/images/icon_highlight.gif" />My Highlights</a></div></li><li><div class="nav_item"><a href="#"><img src="static/images/icon_statistics.gif" />My Reviews</a></div></li><li><div class="nav_item"><a href="#"><img src="static/images/icon_settings.gif" />Settings</a></div></li><li><div class="nav_item"><a href="#"><img src="static/images/icon_chat.gif" />Profile</a></div></li><li><div class="nav_item"><a href="#"><img src="static/images/icon_accessibility.gif" />FAQ</a></div></li><li><div class="nav_item"><a href="#"><img src="static/images/icon_logout.gif" />Logout</a></div></li>
+	</ul>
+	<div id="header">
+		<div id="logo">
+			<div id="search">
+				<form>
+					<input type="text" name="question" placeholder="Search" />
+					<input class="submit_search" type="image" border="0" name="submit" src="static/images/button_search.gif" alt="search" />
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="tagline"><p>Your website.</p></div>
+	<div id="content">
+		<div class="block_without_box">
+			<h1>This is a h1 header</h1>
+			<h2>This is a h2 header</h2>
+			<h3>This is a h3 header</h3>
+			<h4>This is a h4 header</h4>
+			<p>This is floating without a block around it. Here's a <a href="#">link</a>.</p>
+			<img src="static/images/banner.jpg" alt=banner" />
+			<ul>
+				<li>One</li>
+				<li>Two</li>
+				<li><a href="#">Three</a></li>
+			</ul>
+		</div>
+		<div class="block_with_box">
+			<div class="block_title">
+				<img src="static/images/block_top_left.gif" /><h2>Information</h2><img class="right_aligned" src="static/images/block_top_right.gif" />
+			</div>
+			<div class="block_content">
+				<p class="info_message">This is an information message.</p>
+			</div>
+			<div class="block_bottom">
+				<img src="static/images/block_bottom_left.gif" /><img class="right_aligned" src="static/images/block_bottom_right.gif" />
+			</div>
+		</div>
+		<div class="block_with_box">
+			<div class="block_title">
+				<img src="static/images/block_top_left.gif" /><h2>Error</h2><img class="right_aligned" src="static/images/block_top_right.gif" />
+			</div>
+			<div class="block_content">
+				<p class="error_message">This is an error message.</p>
+			</div>
+			<div class="block_bottom">
+				<img src="static/images/block_bottom_left.gif" /><img class="right_aligned" src="static/images/block_bottom_right.gif" />
+			</div>
+		</div>
+		<div class="block_with_box">
+			<div class="block_title">
+				<img src="static/images/block_top_left.gif" /><h2>Large Form stuff</h2><img class="right_aligned" src="static/images/block_top_right.gif" />
+			</div>
+			<div class="block_content">
+				<form action="index.html" method="get">
+					<input type="hidden" name="csrftoken" value="csrf token" />
+					<div class="form_item">
+					<label class="form_item_label" for="input1">Username:</label>
+					<input class="form_item_input" type="text" id="input1" name="username" placeholder="coolguy" />
+					</div>
+					<div class="form_item_large">
+					<label class="form_item_label" for="input2">Password is zeer lang en zeer complex:</label>
+					<input class="form_item_input" type="password" id="input2" name="password" />
+					</div>
+					<div class="form_item_large">
+					<label class="form_item_label" for="input3">Motivation:</label>
+					<textarea class="form_item_input" id="input3" placeholder="Oh jazeker maar dat mag allemaal" name="motivation"></textarea>
+					</div>
+					<div class="form_item">
+					<input class="form_item_submit" type="submit" value="Submit that ****" />
+					</div>
+				</form>
+			</div>
+			<div class="block_bottom">
+				<img src="static/images/block_bottom_left.gif" /><img class="right_aligned" src="static/images/block_bottom_right.gif" />
+			</div>
+		</div>
+		<div class="block_with_box">
+			<div class="block_title">
+				<img src="static/images/block_top_left.gif" /><h2>Small Form stuff</h2><img class="right_aligned" src="static/images/block_top_right.gif" />
+			</div>
+			<div class="block_content">
+				<form action="index.html" method="get">
+					<input type="hidden" name="csrftoken" value="csrf token" />
+					<div class="form_item">
+					<label class="form_item_label" for="input1">Username:</label>
+					<input class="form_item_input" type="text" id="input1" name="username" placeholder="coolguy" />
+					</div>
+					<div class="form_item">
+					<label class="form_item_label" for="input2">Password:</label>
+					<input class="form_item_input" type="password" id="input2" name="password" />
+					</div>
+					<div class="form_item">
+					<label class="form_item_label" for="input3">Motivation:</label>
+					<textarea class="form_item_input" id="input3" placeholder="Oh jazeker" name="motivation"></textarea>
+					</div>
+					<div class="form_item">
+					<input class="form_item_submit" type="submit" value="Submit that ****" />
+					</div>
+				</form>
+			</div>
+			<div class="block_bottom">
+				<img src="static/images/block_bottom_left.gif" /><img class="right_aligned" src="static/images/block_bottom_right.gif" />
+			</div>
+		</div>
+		<div class="block_with_box">
+			<div class="block_title">
+				<img src="static/images/block_top_left.gif" /><h2>Welcome to Your website!</h2><img class="right_aligned" src="static/images/block_top_right.gif" />
+			</div>
+			<div class="block_content">
+				<p>Welcome to Your website,</p>
+				<p>Et aliquid repudiandae nihil. Ipsam voluptate maiores fugit ut omnis delectus ut. Molestias dolorem laborum debitis occaecati saepe est sequi.</p>
+				<p>Doloremque necessitatibus tenetur et. Iste pariatur alias odit. Earum fugit asperiores sunt omnis odit unde eos.</p>
+				<table>
+					<tbody>
+					<tr>
+						<th><div class="white_border">Username</div></th>
+						<th><div class="white_border">Country</div></th>
+						<th><div class="white_border">Karma</div></th>
+					</tr>
+					<tr>
+						<td>admin</td>
+						<td>Belgium</td>
+						<td>1337</td>
+					</tr>
+					<tr>
+						<td>adri</td>
+						<td>The Netherlands</td>
+						<td>123</td>
+					</tr>
+					<tr>
+						<td>bassie</td>
+						<td>Germany</td>
+						<td>456</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="block_bottom">
+				<img src="static/images/block_bottom_left.gif" /><img class="right_aligned" src="static/images/block_bottom_right.gif" />
+			</div>
+		</div>
+		<div class="block_with_box">
+			<div class="block_title">
+				<img src="static/images/block_top_left.gif" /><h2>Table example</h2><img class="right_aligned" src="static/images/block_top_right.gif" />
+			</div>
+			<div class="block_content_no_padding">
+				<table>
+					<tbody>
+					<tr>
+						<th><div class="white_border">Username</div></th>
+						<th><div class="white_border">Country</div></th>
+						<th><div class="white_border">Karma</div></th>
+					</tr>
+					<tr>
+						<td>admin</td>
+						<td>Belgium</td>
+						<td>1337</td>
+					</tr>
+					<tr>
+						<td>adri</td>
+						<td>The Netherlands</td>
+						<td>123</td>
+					</tr>
+					<tr>
+						<td>bassie</td>
+						<td>Germany</td>
+						<td>456</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="block_bottom">
+				<img src="static/images/block_bottom_left.gif" /><img class="right_aligned" src="static/images/block_bottom_right.gif" />
+			</div>
+		</div>
+		<div class="block_with_box">
+			<div class="block_title">
+				<img src="static/images/block_top_left.gif" /><h2>Table that is also a form</h2><img class="right_aligned" src="static/images/block_top_right.gif" />
+			</div>
+			<div class="block_content_no_padding">
+				<table>
+					<tbody>
+					<tr>
+						<th><div class="white_border">Username</div></th>
+						<th><div class="white_border">Country</div></th>
+						<th><div class="white_border">Controls</div></th>
+					</tr>
+					<tr>
+						<td>admin</td>
+						<td>Belgium but I have also lived in The Netherlands and The United Kingdom.</td>
+						<td><a href="#">Edit row</a></td>
+					</tr>
+					<tr>
+						<form>
+						<td><input name="username" type="text" value="adri" /></td>
+						<td><input name="country" type="text" value="The Netherlands" /></td>
+						<td><input type="submit" value="Save" /></td>
+						</form>
+					</tr>
+					<tr>
+						<td>bassie</td>
+						<td>Germany</td>
+						<td>456</td>
+					</tr>
+					</tbody>
+				</table>
+				<div class="table_controls">
+					<div class="white_border">
+						<p><a href="#">Add new row</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="block_bottom">
+				<img src="static/images/block_bottom_left.gif" /><img class="right_aligned" src="static/images/block_bottom_right.gif" />
+			</div>
+		</div>
+	</div>
+	<div id="go_to_top"><a href="#"><img class="right_aligned" src="static/images/top.gif" /></a></div>
+	<div id="footer">
+		<img src="static/images/bottom_left.gif" />
+		Design based upon a <a href="https://www.phpbb.com/">phpBB2</a> template called ICGStation by <a href="https://phpbb-tw.net/phpbb/memberlist.php?mode=viewprofile&u=18960">Ray Fung</a>.
+		<img class="right_aligned" src="static/images/bottom_right.gif" />
+	</div>
+</div>
+</body>
+</html>

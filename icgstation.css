@@ -1,0 +1,149 @@
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-width:0 10px;
+	border-style: solid;
+	border-image: url('static/images/bg_shadow.png') 0% 50% stretch;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+
+body { margin: 0; font-family: Verdana, Helvetica, sans-serif; font-size: 10px; color: #444; }
+a { color: #445588; }
+
+#nav { margin: 0; padding: 0; list-style-type: none; text-align: center; border: 1px solid #bfcad2; background-color: #ececec; }
+#nav a { text-decoration: none; }
+#nav li { display: inline-block; border-left: 1px solid #bfcad2; }
+#nav li .nav_item { margin: 0; display: inline-block; background-color: #ececec; padding-top: 10px; padding-bottom: 10px;  padding-left: 15px; padding-right: 15px; border: 1px solid #fff; }
+#nav li:last-child { border-right: 1px solid #bfcad2; }
+#nav li .nav_item img { display: block; margin: 0 auto; }
+
+#header {
+	clear: both;
+	height: 100px;
+	background-image: url(static/images/banner_stripes.png);
+}
+
+#logo {
+	height: 100px;
+	background-image: url(static/images/banner.jpg);
+	background-repeat: no-repeat;
+}
+
+#search { float: right; height: 100px; padding-right: 15px; padding-top: 35px;}
+#search input { vertical-align: middle; }
+
+#tagline {
+	height: 22px;
+	background-image: url(static/images/navpic.gif);
+}
+#tagline p { padding: 3px 15px; margin: 0; }
+
+.block_without_box { padding: 15px; }
+.block_with_box { padding: 15px; }
+.block_title {
+	margin: 0; padding: 0;
+	float: left;
+	display: block;
+	width: 100%;
+	height: 22px;
+	background-image: url(static/images/block_top_middle.gif);
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #bfcad2;
+}
+.block_title img { display: inline; margin: 0; padding: 0;}
+.block_title h2 { display: inline; vertical-align: top; }
+.right_aligned { float: right; }
+
+.block_content {
+	clear: both;
+	background-color: #f7f7f7;
+	border-left: 1px solid #bfcad2;
+	border-right: 1px solid #bfcad2;
+	padding: 15px;
+}
+
+.block_bottom {
+	height: 4px;
+	border-top: 1px solid #bfcad2;
+	background-image: url(static/images/block_bottom_middle.gif);
+}
+.block_bottom img { float: left; }
+.block_bottom img.right_aligned { float: right; }
+
+#go_to_top { clear: both; }
+
+#footer {
+	clear: both;
+	margin: 0; padding: 0;
+	float: left;
+	display: block;
+	width: 100%;
+	height: 100px;
+	background-image: url(static/images/bottom_middle.gif);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+#footer img { float: left; display: inline; margin: 0; padding: 0;}
+#footer img.right_aligned { float: right; }
+#footer p { display: inline; float: left; text-align: center; }
+
+/* For some reason the fade on both sides doesn't continue to the footer part,
+so we have an extra div element after it with a fixed height so it does... */
+#hmpf { height: 113px; width: 100%; }
+
+/* Table content */
+.block_content_no_padding {
+	clear: both;
+	background-color: #f7f7f7;
+	border-left: 1px solid #bfcad2;
+	border-right: 1px solid #bfcad2;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+tbody {
+}
+tr {
+	color: #444;
+}
+.white_border {
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+.table_controls {
+	border: 1px solid #bfcad2;
+	background-color: #eaeaea;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.table_controls p { padding: 3px 15px; margin: 0; }
+th {
+	border: 1px solid #bfcad2;
+	background-color: #eaeaea;
+	padding: 0;
+}
+td {
+	border: 1px solid #bfcad2;
+	background-color: #f7f7f7;
+	padding: 4px;
+}
+
+.form_item { clear: both; overflow: auto; width: 50%; margin: 0 auto; font-size: 11px; text-align: center; }
+.form_item_large { clear: both; overflow: auto; width: 100%; font-size: 11px; }
+textarea, input { font-size: 11px; }
+
+.form_item .form_item_label { display: block; float: left; width: 30%; text-align: right; margin: 0; padding: 8px; }
+.form_item_large .form_item_label { display: block; text-align: left; margin: 0; padding-right: 8px; }
+.form_item .form_item_input { display: block; float: left; width: 40%; margin: 5px; padding: 0; }
+.form_item_large .form_item_input { display: block; width: 95%; margin: 5px 0; }
+.form_item_submit { margin: 10px 0; }
+.form_item_large textarea { display: block; width: 95%; margin: 5px 0; }
+
+.info_message { text-align: center; color: #006600; font-weight: bold; }
+.error_message { text-align: center; color: #aa0000; font-weight: bold; }
