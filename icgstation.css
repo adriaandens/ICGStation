@@ -89,10 +89,6 @@ a { color: #445588; }
 #footer img.right_aligned { float: right; }
 #footer p { display: inline; float: left; text-align: center; }
 
-/* For some reason the fade on both sides doesn't continue to the footer part,
-so we have an extra div element after it with a fixed height so it does... */
-#hmpf { height: 113px; width: 100%; }
-
 /* Table content */
 .block_content_no_padding {
 	clear: both;
